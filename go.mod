@@ -1,4 +1,4 @@
-module github.com/Diferentt/verifyx_sdk
+module github.com/Diferentt/verifyx_SDK
 
 go 1.22.1
 

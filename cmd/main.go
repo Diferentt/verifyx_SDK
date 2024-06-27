@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	verifyx "github.com/Diferentt/verifyx_sdk"
+	verifyx "github.com/Diferentt/verifyx_SDK"
 )
 
 func main() {
@@ -17,6 +17,6 @@ func main() {
 
 	//log.Println(client.SignUp("gonzasfara@gmail.com", "@Sarasa123", "@Sarasa123", token.AccessToken))
 
-	//log.Println(client.ForgotPassword("nicolas.debole@findholding.com"))
-	log.Println(client.ConfirmForgotPassword("nicolas.debole@findholding.com", "@Hola1234", "@Hola1234", "966603"))
+	log.Println(client.ForgotPassword("nicolas.debole@findholding.com"))
+	//log.Println(client.ConfirmForgotPassword("nicolas.debole@findholding.com", "@Hola1234", "@Hola1234", "966603"))
 }

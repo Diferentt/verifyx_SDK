@@ -2,7 +2,7 @@ package verifyx
 
 import "github.com/golang-jwt/jwt"
 
-const verifyxURL string = "http://localhost:3000/verifyx"
+const verifyxURL string = "https://verifyx.developers-api.com"
 
 type Client struct {
 	IdKey     string
